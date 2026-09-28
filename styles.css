@@ -63,7 +63,7 @@ h1 { margin: 0; font-size: clamp(2.65rem, 5vw, 4.1rem); font-weight: 650; letter
 .button:hover { background: var(--blue); }
 .text-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--blue); font-size: .92rem; text-underline-offset: .2em; }
 .profile-photo { width: 100%; margin: 0; }
-.profile-photo img { width: 100%; aspect-ratio: 32 / 39; object-fit: cover; object-position: 50% 30%; border-radius: 2px; }
+.profile-photo img { width: 100%; height: auto; aspect-ratio: 32 / 39; object-fit: cover; object-position: 50% 30%; border-radius: 2px; }
 .profile-photo figcaption { margin-top: .65rem; color: var(--muted); font-size: .76rem; line-height: 1.4; }
 
 .selected-publications { padding: 3.5rem 0 5rem; border-top: 1px solid var(--line); }
@@ -116,7 +116,7 @@ h1 { margin: 0; font-size: clamp(2.65rem, 5vw, 4.1rem); font-weight: 650; letter
 .resume-item h3 { margin: 0 0 .2rem; font-size: 1.05rem; font-weight: 600; }
 .resume-item p { margin: 0; color: var(--muted); font-size: .9rem; }
 .side-photo { width: 100%; max-width: 330px; margin: 0; position: sticky; top: 2rem; }
-.side-photo img { width: 100%; aspect-ratio: 10 / 13; object-fit: cover; object-position: center; }
+.side-photo img { width: 100%; height: auto; aspect-ratio: 10 / 13; object-fit: cover; object-position: center; }
 .side-photo figcaption { margin-top: .55rem; color: var(--muted); font-size: .75rem; }
 .download-row { margin-top: 1.5rem; }
 
